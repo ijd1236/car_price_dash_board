@@ -7,7 +7,7 @@ from app_ml import run_app_ml
 
 def main():
 
-    st.title('자동차 가격 예측 앱')
+    st.title('자동차 가격 예측 앱 입니다.')
     menu = ['Home', 'EDA', 'ML']
     choice = st.sidebar.selectbox('메뉴', menu)
     if choice == menu[0]:
